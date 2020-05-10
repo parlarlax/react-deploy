@@ -3,13 +3,21 @@ import {
   Card, Col, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, Row
 } from 'reactstrap';
-
-import React from 'react';
-import logo from './logo.svg';
+import Meowmodal from './Modal/MeowModal'
+import React, { Component } from "react";
 import './App.css';
 import imageLogo from './asset/image/maeow.jpg'
 
-function App() {
+class App extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+
+    };
+  }
+
+  render() {
   return (
     <div className="App-div-header">
       <Row className="justify-content-center">
@@ -43,5 +51,5 @@ function App() {
     </div>
   );
 }
-
+}
 export default App;
