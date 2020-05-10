@@ -12,7 +12,7 @@ import imageLogo from './asset/image/maeow.jpg'
 function App() {
   return (
     <div className="App-div-header">
-      <Row>
+      <Row className="justify-content-center">
         <Col md="10" xs="12"
           className="text-center"
         >
